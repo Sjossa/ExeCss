@@ -1,0 +1,44 @@
+body{  width: 500px; 
+    padding: 5px; 
+    margin: 0 auto;}
+
+#layout{ text-align: center;background-color: skyblue; }
+
+.gauche{text-align: left;}
+.droite{text-align: right;}
+.justifié{text-align: justify;}
+h2{color: blue; font-size: 1.5em;text-transform: capitalize;}
+button{color: blue;background-color: yellow;width: 100px;}
+p{color: red;}
+
+table{border:solid 2px blue;width: 50%;background-color: silver;}
+th{height: 40px;}
+td,th{border: 1px solid black;
+padding: 10px;}
+
+
+tr:nth-child(6n+2), tr:nth-child(6n+3), tr:nth-child(6n+4),tr:nth-child(6n+5)  {
+    background-color: #FCC; / Red /
+  }
+
+  tr:nth-child(6n+5) {
+    background-color: #FFC; 
+  }
+  tr:nth-child(6n+6) {
+    background-color: #CFC; 
+  }
+
+  tr:nth-child(6n+7) {
+    background-color:#CFF; 
+  }
+  tr:nth-child(6n+8),
+  tr:nth-child(6n+9),
+  tr:nth-child(6n+10), tr:nth-child(6n+11) {
+    background-color: #CcF;
+  }
+
+  #joh{background-color: none;color:black;
+    border-right:dotted blue 2vh ;
+    border-top: red solid 2vh;
+    border-left: black solid 2vh;
+    border-bottom: green dashed 2vh;margin: 78px;text-align: center; }
