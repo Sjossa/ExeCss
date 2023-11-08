@@ -17,9 +17,8 @@ td,th{border: 1px solid black;
 padding: 10px;}
 
 
-tr:nth-child(6n+2), tr:nth-child(6n+3), tr:nth-child(6n+4),tr:nth-child(6n+5)  {
-    background-color: #FCC; / Red /
-  }
+tr:nth-child(6n+2), tr:nth-child(6n+3), tr:nth-child(6n+4),tr:nth-child(6n+5){
+    background-color: #FCC;}
 
   tr:nth-child(6n+5) {
     background-color: #FFC; 
@@ -41,4 +40,4 @@ tr:nth-child(6n+2), tr:nth-child(6n+3), tr:nth-child(6n+4),tr:nth-child(6n+5)  {
     border-right:dotted blue 2vh ;
     border-top: red solid 2vh;
     border-left: black solid 2vh;
-    border-bottom: green dashed 2vh;margin: 78px;text-align: center; }
+    border-bottom: green dashed 2vh;margin: 78px;text-align: center;}
